@@ -1,3 +1,9 @@
+.cover {
+  padding: 20vh 20px;
+  background: #007917;
+  color: white;
+}
+
 .content {
   background: #B7FF6F;
   padding: 14px 18px 28px 18px;
@@ -17,4 +23,21 @@
   width: 55%;
   height: 55%;
   border-radius: 18px;
+}
+
+.content .example-md {
+  width: 80%;
+  height: 80%;
+}
+
+.tag {
+  color: red;
+}
+
+footer {
+  text-align: center;
+  padding: 18px 24px;
+  margin-top: 20px;
+  background: #003E0C;
+  color: white;
 }

@@ -29,20 +29,23 @@
         <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Tentang</a>
+        <a class="nav-link" href="tentang.html">Tentang</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Kontak</a>
+        <a class="nav-link" href="kontak.html">Kontak</a>
       </li>
     </ul>
   </div>
   </nav>
-  
-  <br>
+  <div class="cover">
+    <h2 class="display-5">Materi Dasar HTML</h2>
+    <hr class="my-3">
+    <p class="lead">Silahkan dibaca dan dipahami</p>
+  </div>
   <br>
   <div class="container">
     <div class="content">
-      <h2>Apa itu HTML?</h2>
+      <h2>Pengertian HTML</h2>
       <hr class="my-3">
       <p><strong>HTML</strong> adalah bahasa yang menggunakan markup atau penanda untuk membuat halaman web.</p>
       <p>Penanda atau markup ini, nanti akan kita sebut dengan <strong>Tag</strong>.</p>
@@ -53,7 +56,7 @@
       <h2>Struktur Dasar HTML</h2>
       <hr class="my-3">
       <img class="example" src="image/struktur-html.png">
-      <p>Penulisan kode HTML selalu dimulai dengan deklarasi DOCTYPE, lalau menuliskan tag <strong style="color: red;">&lt;html&gt;</strong> dan di dalamnya terdapat tag <strong style="color: red;">&lt;head&gt;</strong> dan <strong style="color: red;">&lt;body&gt;</strong>.</p>
+      <p>Penulisan kode HTML selalu dimulai dengan deklarasi DOCTYPE, lalau menuliskan tag <strong class="tag">&lt;html&gt;</strong> dan di dalamnya terdapat tag <strong class="tag">&lt;head&gt;</strong> dan <strong class="tag">&lt;body&gt;</strong>.</p>
     </div>
     <br>
     <div class="content">
@@ -68,20 +71,42 @@
         <li>
           <p><strong>Bagian Deklarasi</strong></p>
           <p>Coba perhatikan kode pada baris pertama:</p>
-          <p><strong style="background: white; padding: 4px; color: red;">&lt;!DOCTYPE html&gt;</strong></p>
+          <p><strong style="background: black; padding: 12px; color: red;">&lt;!DOCTYPE html&gt;</strong></p>
           <p>Ini adalah tag deklarasi untuk menyatakan tipe dokumen dan versinya.<br>Pada contoh di atas, kita menyatakan dokumen ini bertipe HTML dan versinya adalah HTML 5.</p>
           <br>
           <p>Berikutnya, di bawah tag deklarasi <!DOCTYPE html> terdapat tag pembuka untuk HTML:</p>
           <img class="example-sm" src="image/tag-pembuka-html.png">
-          <p>Tag &lt;html&gt; wajib ada di setiap dokumen HTML..</p>
+          <p>Tag <strong class="tag">&lt;html&gt;</strong> wajib ada di setiap dokumen HTML..</p>
           <p>Pada tag ini, kita memberikan atribut lang="en" untuk menyatakan kalau konten dokumen HTML ini akan menggunakan bahasa inggris.</p>
-          <p>Nah di dalam tag &lt;html&gt; ini, terdapat dua tag penting lagi.. yakni: tag &lt;head&gt; dan tag &lt;body&gt;.<p>
-          <p>Setelah itu barulah terakhir tag HTML ditutup dengan &lt;/html&gt;.</p>
+          <p>Nah di dalam tag <strong class="tag">&lt;html&gt;</strong> ini, terdapat dua tag penting lagi.. yakni: tag <strong class="tag">&lt;head&gt;</strong> dan tag &lt;body&gt;.<p>
+          <p>Setelah itu barulah terakhir tag HTML ditutup dengan <strong class="tag">&lt;/html&gt;</strong>.</p>
         </li>
         <li>
           <p><strong>Bagian Head</strong></p>
+          <img class="example-md" src="image/bagian-head.png">
+          <p>Pada bagian HEAD, biasanya digunakan untuk menuliskan tag-tag yang akan dibaca oleh mesin. Seperti:</p>
+          <ul>
+            <li>Tag meta untuk SEO;</li>
+            <li>Tag <strong class="tag">&lt;title&gt;</strong> untuk judul;</li>
+            <li>Tempat menulis kode CSS dan Javascript;</li>
+            <li>dan lain-lain.</li>
+          </ul>
         </li>
+        <li>
+          <p><strong>Bagian Body</strong></p>
+          <img class="example-md" src="image/bagian-body.png">
+          <p>Bagian BODY adalah bagian yang akan ditampilkan pada web browser. Penulisannya di mulai dari tag <strong class="tag">&lt;body&gt;</strong> dan ditutup dengan <strong class="tag">&lt;/body&gt;</strong>.<br>
+            Di sinilah nanti kita akan banyak menuliskan konten dengan berbagai macam tag. Saat ini kita baru mengisinya dengan tag <strong class="tag">&lt;p&gt;</strong>. Tag <strong class="tag">&lt;p&gt;</strong> adalah tag yang digunakan untuk membuat paragraf.</p>
+          </li>
+        </ol>
+      </div>
     </div>
   </div>
+  
+  <footer>
+    <h2>Copyright&copy; 2020</h2>
+    <hr class="my-3">
+    <p class="lead">Dibuat oleh: Muhammad Asril</p>
+  </footer>
 </body>
 </html>
