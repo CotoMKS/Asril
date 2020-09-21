@@ -1,0 +1,20 @@
+.content {
+  background: #B7FF6F;
+  padding: 14px 18px 28px 18px;
+  color: black;
+  margin: 2px;
+  border-radius: 8px;
+}
+
+.content .example {
+  width: 75%;
+  height: 75%;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.content .example-sm {
+  width: 55%;
+  height: 55%;
+  border-radius: 18px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Asril</title>
+  
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.2/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.2/dist/css/bootstrap.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-success">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">ASRIL</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tentang</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Kontak</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+  
+  <br>
+  <br>
+  <div class="container">
+    <div class="content">
+      <h2>Apa itu HTML?</h2>
+      <hr class="my-3">
+      <p><strong>HTML</strong> adalah bahasa yang menggunakan markup atau penanda untuk membuat halaman web.</p>
+      <p>Penanda atau markup ini, nanti akan kita sebut dengan <strong>Tag</strong>.</p>
+      <p>HTML berperan untuk menentukan struktur konten dan tampilan dari sebuah web.</p>
+    </div>
+    <br>
+    <div class="content">
+      <h2>Struktur Dasar HTML</h2>
+      <hr class="my-3">
+      <img class="example" src="image/struktur-html.png">
+      <p>Penulisan kode HTML selalu dimulai dengan deklarasi DOCTYPE, lalau menuliskan tag <strong style="color: red;">&lt;html&gt;</strong> dan di dalamnya terdapat tag <strong style="color: red;">&lt;head&gt;</strong> dan <strong style="color: red;">&lt;body&gt;</strong>.</p>
+    </div>
+    <br>
+    <div class="content">
+      <p>Kalau kita perhatikan.. struktur dasar kode HTML terdiri dari tiga bagian penting:</p>
+      <ol>
+        <li>Bagian Deklarasi</li>
+        <li>Bagian HEAD</li>
+        <li>Bagian BODY</li>
+      </ol>
+      <p>Mari kita bahas satu-per-satu:</p>
+      <ol>
+        <li>
+          <p><strong>Bagian Deklarasi</strong></p>
+          <p>Coba perhatikan kode pada baris pertama:</p>
+          <p><strong style="background: white; padding: 4px; color: red;">&lt;!DOCTYPE html&gt;</strong></p>
+          <p>Ini adalah tag deklarasi untuk menyatakan tipe dokumen dan versinya.<br>Pada contoh di atas, kita menyatakan dokumen ini bertipe HTML dan versinya adalah HTML 5.</p>
+          <br>
+          <p>Berikutnya, di bawah tag deklarasi <!DOCTYPE html> terdapat tag pembuka untuk HTML:</p>
+          <img class="example-sm" src="image/tag-pembuka-html.png">
+          <p>Tag &lt;html&gt; wajib ada di setiap dokumen HTML..</p>
+          <p>Pada tag ini, kita memberikan atribut lang="en" untuk menyatakan kalau konten dokumen HTML ini akan menggunakan bahasa inggris.</p>
+          <p>Nah di dalam tag &lt;html&gt; ini, terdapat dua tag penting lagi.. yakni: tag &lt;head&gt; dan tag &lt;body&gt;.<p>
+          <p>Setelah itu barulah terakhir tag HTML ditutup dengan &lt;/html&gt;.</p>
+        </li>
+        <li>
+          <p><strong>Bagian Head</strong></p>
+        </li>
+    </div>
+  </div>
+</body>
+</html>
